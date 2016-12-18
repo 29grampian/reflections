@@ -7,3 +7,6 @@ How is the staging area different from the working directory and the repository?
 working directory - local current changes, not related to git
 staging - ready to commit to git
 repository - contain final changes
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add one change at a time
