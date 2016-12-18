@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git create a meta .git folder
+So git can start tracking
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+working directory - local current changes, not related to git
+staging - ready to commit to git
+repository - contain final changes
