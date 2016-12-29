@@ -10,3 +10,21 @@ repository - contain final changes
 
 How can you use the staging area to make sure you have one commit per logical change?
 Add one change at a time
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Adding new features that need separate R&D time before merging with master branch. Branches allow you to test new features while keeping main branch clean
+
+How do the diagrams help you visualize the branch structure?
+When you create a new branch, you can trace where the branch breaks out from the master branch.
+You know at which commit the new branch breaks out and what changes it contains.
+
+git remote set-url origin https://github.com/Hamorim85/frontend-nanodegree-arcade-game.git
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+combine changes. Diagram to show the final label
+
+http://stackoverflow.com/questions/16217363/git-graph-not-showing-branch
+If there are no commits to master while you are working on mynewbranch, your history will look like what you've shown. In that case, no actual merge is required; merged master is identical to the tip of mynewbranch. If this is the case, git will (by default) do what is known as a fast-forward merge; master's branch pointer is just updated to be the same commit as the tip of your merge. This usually results in a simpler commit history that is easier to work with, especially if work is also going on in remote repositories.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Changes of two branches merged together. One branch is merged into an other.
