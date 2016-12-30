@@ -28,3 +28,6 @@ If there are no commits to master while you are working on mynewbranch, your his
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Changes of two branches merged together. One branch is merged into an other.
+
+git password caching
+https://help.github.com/articles/caching-your-github-password-in-git/
